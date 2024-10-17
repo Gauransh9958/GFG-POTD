@@ -29,6 +29,9 @@ class Solution:
             add_to_first = not add_to_first
             current = current.next
 
+
+
+        # Terminate both lists.
         if tail1:
             tail1.next = None
         if tail2:
