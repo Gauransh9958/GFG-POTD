@@ -23,3 +23,15 @@ class Solution:
             
         return ways
 
+
+
+
+
+
+
+
+
+
+
+
+
