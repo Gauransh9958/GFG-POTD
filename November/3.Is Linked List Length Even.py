@@ -1,6 +1,6 @@
 class Solution:
     def isLengthEven(self, head):
-        is_even = True  
+        is_even = True
         
         current = head
         
