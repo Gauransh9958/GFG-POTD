@@ -18,18 +18,14 @@ class Solution:
             # Calculating the current sum
             current_sum += arr[i]
 
-            # Checking if the current sum is equal to 'k'
             if current_sum == k:
                 maxLen = i + 1
 
-            # Adding the current sum to the dictionary if it doesn't exist
             if current_sum not in um:
                 um[current_sum] = i
 
-            # Checking if the difference between the current sum and 'k' exists in the dictionary
             if (current_sum - k) in um:
-                # Updating maxLen if needed
-                maxLen = max(maxLen, i - um[current_sum - k])
+            maxLen = max(maxLen, i - um[current_sum - k])
 
         # Returning the maximum subarray length
         return maxLen
