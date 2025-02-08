@@ -1,6 +1,3 @@
-
-
-
 class Solution:
 
     def inOrder(self, root):
