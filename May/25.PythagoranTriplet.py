@@ -1,4 +1,7 @@
 
+import math
+
+
 class Solution:
 
     def pythagoreanTriplet(self, arr):
